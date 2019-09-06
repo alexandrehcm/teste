@@ -1,0 +1,90 @@
+/*Limpar formatações padrão*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+
+}
+
+img#banner {
+
+display: block;
+margin: auto;
+}
+
+img#logo {
+
+	position: absolute; 
+	top:-12px; 
+	left: 12%;
+}
+
+body {
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f3f3f3;
+}
+
+/*Formatação do Menu */
+nav#menu {
+	display: block;
+}
+
+nav#menu a {
+	color: #000000;
+	text-decoration: none;
+}
+
+nav#menu a:hover{
+	color: #ffffff;
+}
+
+nav#menu h1{
+	display: none;
+}
+
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: relative;
+	top: 1px;
+	text-align: center;
+
+}
+
+nav#menu li {
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 5px;
+	transition: background-color 1s;
+}
+
+nav#menu li:hover {
+	background-color: #606060; 
+}
+
+/* Artigos - Sobre*/
+
+article#sobre {
+	position: relative;
+	top: 120px;
+	left: 15%;
+}
+
+article#qualidade {
+	position: relative;
+	top: 200px;
+	left: 15%;
+}
+
+p {
+
+	width: 400px;
+	text-align: justify;
+	position: relative;
+	top: 40px;
+	
+}
